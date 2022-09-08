@@ -1,0 +1,16 @@
+
+# Vagrant configuration file
+
+api_version: "2"
+box: ubuntu/focal64
+vm_forwarded_port: 
+  guest_port: 80
+  host_port: 8080
+gitlab_runner_url: "https://gitlab.com/"
+runner_token: GR1348941fYHJp6wLUTeV8-AVEE4r
+runner_name_1: deus-docker-runner
+runner_tag_list_1: docker-deus
+runner_executor_1: docker
+runner_name_2: deus-shell-runner
+runner_tag_list_2: shell-deus
+runner_executor_2: shell
